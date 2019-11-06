@@ -13,8 +13,7 @@
   font-family: 'Press Start 2P', cursive
 }
 
-#jade {
-   .container {
+.container {
   position: relative;
   width: 100%;
   max-width: "1250";
@@ -43,7 +42,6 @@
 .container .btn:hover {
   background-color: transparent;
   color: fuchsia;
-}
 }
 
 body {
