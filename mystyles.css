@@ -5,7 +5,8 @@
   background-color: transparent;
   font-size: 45px;
   font-family: 'Press Start 2P', cursive;
-  text-align: right;
+  text-align: right; 
+  margin-left: 600px;
 }
 
 .myfirstclass {
