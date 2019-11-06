@@ -7,11 +7,43 @@
  <link rel = "stylesheet" href= "mystyles.css">
 <title> jadey </title>
 <body>
-   <div class= "container">
+<style>
+.container {
+  position: relative;
+  width: 100%;
+  max-width: "1250";
+}
+.container img {
+  width: "1250"
+  height: "635";
+}
+.container .btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: transparent;
+  color: lime;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 40px;
+  padding: 32px 60px;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.container .btn:hover {
+  background-color: transparent;
+  color: fuchsia;
+}
+ </style>
+ <div class= "container">
    <img src = "jadey-page-001.gif" alt="Gif" height= 100% width= 100%>
    <button onclick = "window.location.href = 'intro.html';" class= "btn"> who is JADE? click 2 find out... </button>
 </div>
- </div>
+
 
 </body>
 
